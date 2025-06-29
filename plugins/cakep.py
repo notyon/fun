@@ -13,9 +13,9 @@ async def cakep_handler(client: Client, message: Message):
             return
 
         chosen = random.choice(users)
-        name = chosen.first_name
+        mention = chosen.mention()  # Otomatis jadi clickable mention
 
-        await message.reply_text(f"🌟 ORANG CAKEP HARI INI: {name}")
+        await message.reply_text(f"🌟 ORANG CAKEP HARI INI: {mention}")
 
     except Exception as e:
         await message.reply_text(f"Terjadi kesalahan: {e}")
