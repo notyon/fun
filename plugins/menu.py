@@ -13,6 +13,7 @@ async def menu_handler(client: Client, message: Message):
         "• /jam → Lihat jam di Indonesia, Korea & Rusia\n"
         "• /rate → Nilai acak untuk seseorang atau sesuatu\n"
         "• /zodiak → Tebakan zodiak random untukmu\n"
+        "• /hajar
         "• /menu → Tampilkan menu ini kembali\n\n"
         "Silakan coba fiturnya dan have fun! 🎉",
         quote=True
