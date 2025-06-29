@@ -13,7 +13,7 @@ async def hajar_handler(client: Client, message: Message):
         await message.reply_text("ngapain hajar gua? 😅")
         return
 
-    variasi = ["TAMPAR", "HANTAM", "TABOK", "BANTAI", "TENDANG", "HAJAR", "PUKUL"]
+    variasi = ["TAMPAR", "HANTAM", "TABOK", "BANTAI", "TENDANG", "EWE", "ISEP SUSU", "HAJAR", "PUKUL"]
     kata = random.choice(variasi)
     mention = target_user.mention()
 
