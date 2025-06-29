@@ -13,8 +13,8 @@ async def hajar_handler(client: Client, message: Message):
         await message.reply_text("Gabisa hajar bot 😅")
         return
 
-    variasi = ["MENAMPAR", "MENGHANTAM", "MENABOK", "BANTAI", "TENDANG", "PUKUL"]
+    variasi = ["TAMPAR", "HANTAM", "TABOK", "BANTAI", "TENDANG", "HAJAR", "PUKUL"]
     kata = random.choice(variasi)
     mention = target_user.mention()
 
-    await message.reply_text(f"saya akan {kata} {mention} 🤭")
+    await message.reply_text(f"GUA {kata} {mention} LU!")
