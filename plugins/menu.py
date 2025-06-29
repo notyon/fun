@@ -16,5 +16,5 @@ async def menu_handler(client: Client, message: Message):
         "• `/menu` → Tampilkan menu ini kembali\n\n"
         "Silakan coba fiturnya dan have fun! 🎉",
         quote=True,
-        parse_mode="markdown"
+        parse_mode="html"
     )
