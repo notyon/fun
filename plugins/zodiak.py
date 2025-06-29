@@ -9,5 +9,5 @@ async def zodiak_handler(client: Client, message: Message):
         "♌ Leo", "♍ Virgo", "♎ Libra", "♏ Scorpio",
         "♐ Sagittarius", "♑ Capricorn", "♒ Aquarius", "♓ Pisces"
     ]
-    pilihan = random.choice(zodiaks)
-    await message.reply_text(f"🔮 Aku menebak... Zodiak kamu adalah: *{pilihan}* ✨", parse_mode="markdown")
+    hasil = random.choice(zodiaks)
+    await message.reply_text(f"Aku tebak zodiak kamu adalah: {hasil} ✨")
