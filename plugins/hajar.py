@@ -17,4 +17,4 @@ async def hajar_handler(client: Client, message: Message):
     kata = random.choice(variasi)
     mention = target_user.mention()
 
-    await message.reply_text(f"🥊 {kata} {mention}")
+    await message.reply_text(f"saya akan {kata} {mention} 🤭")
